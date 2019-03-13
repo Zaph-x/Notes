@@ -1,0 +1,60 @@
+\section{Definitioner}
+
+\begin{frdef}[S. 440, 1]
+Antag at $S$ er et sæt med $n$ elementer. Den uniforme fordeling, tildeler sandsynligheden $\frac{1}{n}$ for hvert element i $S$
+\end{frdef}
+
+\begin{frdef}[S. 440, 2]
+Sandsynligheden for en hændelse $E$ er summen af sandsynligheder, af udfaldet af $E$. Dette er 
+\begin{equation}
+p(E)=\sum_{s\in E} p(s)
+\end{equation}
+Bemærk at når $E$ er et uendeligt sæt, så er $\sum_{s\in E} P(s)$ en konvergent uendelig serie.
+\end{frdef}
+
+\begin{frdef}[SLIAL02, S. 9]
+Hvis vi har givet et sandsynlighedsfelt med udfaldsrum $S$ så siges
+$X$ at være en stokastisk variabel (random variable) hvis $X$ er
+en funktion med definitionsmængde $S$ og med værdier i $R$.
+Eksempel: Terningkast. $S = \set{1, 2, 3, 4, 5, 6}$.
+$p(i) = \frac{1}{6}$
+\\\\
+Lad $X(i) = i$, for alle $i \in S$. Eksempel: $n$ uafhængige Bernoulli forsøg.\\
+Lad $X(s)$ = antal succeser, hvor $s$ er en række af $n$ Bernoulli
+forsøg.
+\\Middelværdien af denne kan udregnes ved følgende formel
+\begin{equation}
+E(X)=\sum_{s\in S} p(s)X(s)
+\end{equation}
+\end{frdef}
+
+\begin{frdef}[S. 442, 3]
+Lad $e$ og $F$ være hændelser med $p(F)>0$. Den konditionale sandsynlighed af $E$, givet ved $F$, noteret med $p(E|F)$, er defineret som
+\begin{equation}
+p(E|F)=\frac{p(E\cup F)}{p(F)}
+\end{equation}
+\end{frdef}
+
+\begin{frdef}[S. 443, 4]
+Hændelserne $E$ og $F$ er uafhængige, hvis og kun hvis $p(E\cap F)=p(E)p(F)$
+\end{frdef}
+
+\begin{frdef}[S. 444, 5]
+Hændelserne $E_1,E_2,\dots$ er parvis uafhængige, hvis og kun hvis $p(E_i\cap E_j)=p(E_i)p(E_j)$ for alle par af heltal $i$ og $j$, hvor $1\leq i\leq j\leq n$. \\
+Disse hændelser er gensidig uafhængige, hvis 
+\begin{equation}
+p(E_{i_1}\cap E_{i_2}\cap \cdots \cap E_{i_m})=p(E_{i_1})p(E_{i_2})\cdots p(E_{i_m})
+\end{equation}
+når $i_j,j=,1,2,\dots,m$ er heltal, hvor $1\leq i_1< i_2<\cdots<i_m\leq n$ og $m\geq 2$.
+\end{frdef}
+
+
+\section{Beviser og sætninger}
+
+\begin{frtheo}[S. 441, 1]
+Hvis $E_1,E_2, \dots$ er en sekvens af parvis disjunkte hændelser i et sample rum $S$, så kan vi sige:
+\begin{equation}
+p\left(\bigcup_{i}E_i\right)=\sum_ip(E_i)
+\end{equation}
+Bemærk at denne sætning anvendes når sekvensen $E_1,E_2,\dots$ består af en finit mængde af tal, eller en tællelig uendelig mængde af tal, der er parvis disjunkte hændelser
+\end{frtheo}
