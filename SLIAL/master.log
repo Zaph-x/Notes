@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.6)  13 MAR 2019 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.6)  20 MAR 2019 10:33
 entering extended mode
-**./master.tex
-(master.tex
+**c:/Users/flufg/Documents/LaTeX/SLIAL/master.tex
+(c:/Users/flufg/Documents/LaTeX/SLIAL/master.tex
 LaTeX2e <2018-12-01>
-(preamble.tex
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+(preamble.tex ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
@@ -21,100 +20,62 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
-y"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2018/11/13 3.27 The Babel package
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
-"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def"
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
 ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-danish\danis
-h.ldf"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-danish\danish.ldf"
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
-ef")
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
 \bbl@dirlevel=\count90
 )
 Package babel Info: Making " an active character on input line 82.
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf.
-sty"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
-base.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
-rr.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
-y"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
-ekeys.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
-.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
-.sty"
+))) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
-ys.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
-s.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
-x.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-))))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
-ty"
+)))) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -125,33 +86,22 @@ Package pdftexcmds Info: \pdfdraftmode found.
 
 Package epstopdf Warning: No graphics package `graphic{s,x}' loaded.
 
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.sty"
 \lst@mode=\count91
 \lst@gtempboxa=\box27
 \lst@token=\toks17
@@ -164,22 +114,16 @@ sty"
 \lst@newlines=\count95
 \lst@lineno=\count96
 \lst@maxwidth=\dimen109
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
-ty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 \c@lstnumber=\count97
 \lst@skipnumbers=\count98
 \lst@framebox=\box28
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
-cfg"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cfg"
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty
-"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
  ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
@@ -198,9 +142,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@delta=\dimen116
 \TX@cols=\count99
 \TX@ftn=\toks19
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen117
 \lightrulewidth=\dimen118
@@ -219,22 +161,15 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count102
 \@lastruleclass=\count103
 \@thisrulewidth=\dimen129
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
-"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -248,13 +183,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
-y"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
-ty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen130
@@ -268,26 +199,19 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@caption@flags=\count104
 \c@ContinuedFloat=\count105
 Package caption Info: listings package is loaded.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/framed\framed.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip45
 \fb@frw=\dimen137
 \fb@frh=\dimen138
 \FrameRule=\dimen139
 \FrameSep=\dimen140
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lstaddons\lstautog
-obble.sty"
-Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
-ings'
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lstaddons\lstautogobble.sty"
+Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'listings'
 \lstag@spacecount=\count106
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\zi4.st
-y"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/inconsolata\zi4.sty"
 Package: zi4 2017/01/04 v1.112
- `inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+ `inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -301,12 +225,11 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -404,7 +327,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -442,15 +364,9 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
-y"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
-tex"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
-.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
 )
@@ -458,31 +374,21 @@ tex"
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \zifour@ocount=\count108
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen141
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen142
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count109
@@ -522,51 +428,37 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
-ty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunits\SIunits.st
-y"
-Package: SIunits 2007/12/02 v1.36 Support for the International System of units
- (MH)
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunits\SIunits.sty"
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units (MH)
 
 
 \@qskwidth=\skip49
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 46.
 \symgreek=\mathgroup6
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunits\SIunits.cf
-g")
+("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunits\SIunits.cfg")
 Option `amssymb' provided!
 ) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\units.sty"
 Package: units 1998/08/04 v0.9b Typesetting units
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.sty
-"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip50
 \L@UnitsRaiseTextstyle=\skip51
 \L@UnitsRaiseScriptstyle=\skip52
 )
 LaTeX Info: Redefining \unit on input line 41.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
-s.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtools.sty"
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count121
 \calc@Bcount=\count122
@@ -578,9 +470,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count123
 \calc@Cskip=\skip55
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
@@ -596,15 +486,9 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen156
 \l_MT_above_shortintertext_sep=\dimen157
 \l_MT_below_shortintertext_sep=\dimen158
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
-xparse.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
-"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
 Package: expl3 2019-01-28 L3 programming layer (loader) 
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-cod
-e.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
 Package: expl3 2019-01-28 L3 programming layer (code)
 \c_max_int=\count125
 \l_tmpa_int=\count126
@@ -753,9 +637,7 @@ Package: expl3 2019-01-28 L3 programming layer (code)
 \l__coffin_scaled_width_dim=\dimen190
 \l__seq_internal_a_int=\count273
 \l__seq_internal_b_int=\count274
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode
-.def"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2019-01-28 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count275
 ))
@@ -765,9 +647,7 @@ Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_m_args_int=\count278
 \l__xparse_mandatory_args_int=\count279
 \l__xparse_v_nesting_int=\count280
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ntheorem\ntheorem.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ntheorem\ntheorem.sty"
 Style `ntheorem', Version 1.33 <2011/08/15>
 Package: ntheorem 2011/08/15 1.33
 \theorem@style=\toks27
@@ -804,8 +684,7 @@ Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
 \c@endNonectr=\count281
 \c@currNonectr=\count282
 \mysavskip=\skip71
-Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
- line 1175.
+Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input line 1175.
 \thm@amstmpdepth=\dimen195
 \tagwidth=\dimen196
 \shadecolor=\toks45
@@ -819,18 +698,12 @@ Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
 \c@currfrlemctr=\count289
 \c@endfrlemctr=\count290
 \c@frlem=\count291
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count292
@@ -845,11 +718,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen259
 \Gm@layoutvoffset=\dimen260
 \Gm@dimlist=\toks46
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-cfg"))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box51
 \beforetitleunit=\skip72
@@ -860,11 +729,8 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen263
 \titlewidthlast=\dimen264
 \titlewidthfirst=\dimen265
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
-sty"
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@headwidth=\skip74
 \f@nch@O@elh=\skip75
 \f@nch@O@erh=\skip76
@@ -874,20 +740,15 @@ s
 \f@nch@O@erf=\skip80
 \f@nch@O@olf=\skip81
 \f@nch@O@orf=\skip82
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count295
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count296
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
@@ -949,9 +810,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincompwidth=\count340
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.de
-f"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def"
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -1042,16 +901,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip104
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compa
-t.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compat.def"
 File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-bibte
-x.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-bibtex.def"
 File: blx-bibtex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 
 
@@ -1061,9 +916,7 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
-def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 \c@textcitecount=\count409
 \c@textcitetotal=\count410
@@ -1075,42 +928,30 @@ File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'nature'...
 Package biblatex Info: ... file 'nature.bbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature\na
-ture.bbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature\nature.bbx"
 File: nature.bbx 2018/10/18 v1.3c biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numer
-ic-comp.bbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric-comp.bbx"
 File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numer
-ic.bbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric.bbx"
 File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
-ard.bbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count416
 \c@bbx:relatedtotal=\count417
 ))))
 Package biblatex Info: Trying to load citation style 'nature'...
 Package biblatex Info: ... file 'nature.cbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature\na
-ture.cbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature\nature.cbx"
 File: nature.cbx 2018/10/18 v1.3c biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numer
-ic-comp.cbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric-comp.cbx"
 File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count418
 \c@cbx@tempcntb=\count419
@@ -1128,74 +969,55 @@ Package biblatex Info: Redefining '\smartcites'.
 ))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
-cfg"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg"
 File: biblatex.cfg 
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\tocbibin
-d.sty"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.sty"
+Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
+\csq@reset=\count420
+\csq@gtype=\count421
+\csq@glevel=\count422
+\csq@qlevel=\count423
+\csq@maxlvl=\count424
+\csq@tshold=\count425
+\csq@ltx@everypar=\toks48
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.def"
+File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.cfg"
+File: csquotes.cfg 
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\tocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/todonotes\todonote
-s.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/todonotes\todonotes.sty"
 Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
 Package: todonotes 2018/11/22
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
-tikz.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
-.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
-cs.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-common.tex"
-\pgfutil@everybye=\toks48
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks49
 \pgfutil@tempdima=\dimen266
 \pgfutil@tempdimb=\dimen267
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-common-lists.tex"))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-latex.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.tex")) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
 \pgfutil@abb=\box52
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-frcs.code.tex"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
-.tex")
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
 Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
 Package: pgf 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
-core.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
-fsys.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys.code.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
 Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeys.code.tex"
-\pgfkeys@pathtoks=\toks49
-\pgfkeys@temptoks=\toks50
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks51
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks50
+\pgfkeys@temptoks=\toks51
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks52
 ))
 \pgf@x=\dimen268
 \pgf@y=\dimen269
@@ -1207,82 +1029,40 @@ fkeysfiltered.code.tex"
 \pgf@yc=\dimen275
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count420
-\c@pgf@countb=\count421
-\c@pgf@countc=\count422
-\c@pgf@countd=\count423
-\t@pgf@toka=\toks52
-\t@pgf@tokb=\toks53
-\t@pgf@tokc=\toks54
-\pgf@sys@id@count=\count424
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgf.cfg"
+\c@pgf@counta=\count426
+\c@pgf@countb=\count427
+\c@pgf@countc=\count428
+\c@pgf@countd=\count429
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+\pgf@sys@id@count=\count430
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys-pdftex.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys-common-pdf.def"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
-)))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsyssoftpath.code.tex"
+))) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count425
-\pgfsyssoftpath@bigbuffer@items=\count426
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsysprotocol.code.tex"
+\pgfsyssoftpath@smallbuffer@items=\count431
+\pgfsyssoftpath@bigbuffer@items=\count432
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcore.code.tex"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
 Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-calc.code.tex"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-util.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-parser.code.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen276
-\pgfmath@count=\count427
+\pgfmath@count=\count433
 \pgfmath@box=\box53
-\pgfmath@toks=\toks55
-\pgfmath@stack@operand=\toks56
-\pgfmath@stack@operation=\toks57
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.code.tex"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.basic.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.trigonometric.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.random.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.comparison.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.base.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.round.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.misc.code.tex")
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.integerarithmetics.code.tex")))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-float.code.tex"
-\c@pgfmathroundto@lastzeros=\count428
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepoints.code.tex"
+\pgfmath@toks=\toks56
+\pgfmath@stack@operand=\toks57
+\pgfmath@stack@operation=\toks58
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex") ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex"))) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count434
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen277
 \pgf@picmaxx=\dimen278
@@ -1298,135 +1078,77 @@ File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@yy=\dimen288
 \pgf@zx=\dimen289
 \pgf@zy=\dimen290
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathconstruct.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@path@lastx=\dimen291
 \pgf@path@lasty=\dimen292
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathusage.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@shorten@end@additional=\dimen293
 \pgf@shorten@start@additional=\dimen294
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorescopes.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count429
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoregraphicstate.code.tex"
+\pgf@picture@serial@count=\count435
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgflinewidth=\dimen295
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoretransformations.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@pt@x=\dimen296
 \pgf@pt@y=\dimen297
 \pgf@pt@temp=\dimen298
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorequick.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreobjects.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathprocessing.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorearrows.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfarrowsep=\dimen299
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreshade.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen300
-\pgf@sys@shading@range@num=\count430
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreimage.code.tex"
+\pgf@sys@shading@range@num=\count436
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreexternal.code.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfexternal@startupbox=\box57
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorelayers.code.tex"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoretransparency.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepatterns.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorerdf.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
 File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-oduleshapes.code.tex"
+))) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodeparttextbox=\box58
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-oduleplot.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
-pgfcomp-version-0-65.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
 \pgf@nodesepstart=\dimen301
 \pgf@nodesepend=\dimen302
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
-pgfcomp-version-1-18.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
-or.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
-eys.sty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeys.code.tex"))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
-ty"
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex"))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-ffor.code.tex"
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex")) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty" ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
 Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex")
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
 \pgffor@iter=\dimen303
 \pgffor@skip=\dimen304
-\pgffor@stack=\toks58
-\pgffor@toks=\toks59
-))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz\tikz.code.tex"
+\pgffor@stack=\toks59
+\pgffor@toks=\toks60
+)) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
 Package: tikz 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
-flibraryplothandlers.code.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@plot@mark@count=\count431
+\pgf@plot@mark@count=\count437
 \pgfplotmarksize=\dimen305
 )
 \tikz@lastx=\dimen306
@@ -1439,69 +1161,44 @@ File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count432
-\tikznumberofchildren=\count433
-\tikznumberofcurrentchild=\count434
-\tikz@fig@count=\count435
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-odulematrix.code.tex"
+\tikztreelevel=\count438
+\tikznumberofchildren=\count439
+\tikznumberofcurrentchild=\count440
+\tikz@fig@count=\count441
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfmatrixcurrentrow=\count436
-\pgfmatrixcurrentcolumn=\count437
-\pgf@matrix@numberofcolumns=\count438
+\pgfmatrixcurrentrow=\count442
+\pgfmatrixcurrentcolumn=\count443
+\pgf@matrix@numberofcolumns=\count444
 )
-\tikz@expandcount=\count439
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibrarytopaths.code.tex"
+\tikz@expandcount=\count445
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)))
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibrarypositioning.code.tex"
+))) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryshadows.code.tex"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex"
 File: tikzlibraryshadows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibraryfadings.code.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex"
 File: tikzlibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
-flibraryfadings.code.tex"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryfadings.code.tex"
 File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
-\c@@todonotes@numberoftodonotes=\count440
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
-ty"
+\c@@todonotes@numberoftodonotes=\count446
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\refcount.
-sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\refcount.sty"
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitl
-estring.sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count441
+\c@section@level=\count447
 LaTeX Info: Redefining \ref on input line 355.
 LaTeX Info: Redefining \pageref on input line 355.
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
-hyperref.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
-generic.sty"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1515,8 +1212,7 @@ Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -1528,25 +1224,19 @@ Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package hobsub Info: Skipping package `refcount' (already loaded).
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
-ty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen312
-\Hy@linkcounter=\count442
-\Hy@pagecounter=\count443
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
-f"
+\Hy@linkcounter=\count448
+\Hy@pagecounter=\count449
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count444
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
-cfg"
+\Hy@SavedSpaceFactor=\count450
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4519.
@@ -1556,10 +1246,10 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count445
+\c@Hy@tempcnt=\count451
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen313
-\Fld@menulength=\count446
+\Fld@menulength=\count452
 \Field@Width=\dimen314
 \Fld@charsize=\dimen315
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -1571,28 +1261,21 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count447
-\c@Item=\count448
-\c@Hfootnote=\count449
+\Hy@abspage=\count453
+\c@Item=\count454
+\c@Hfootnote=\count455
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
-ef"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count450
-\c@bookmark@seq@number=\count451
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
-check.sty"
+\Fld@listcount=\count456
+\c@bookmark@seq@number=\count457
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip105
-)
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.
-sty"
+) ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.sty"
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -1608,25 +1291,20 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `ntheorem' support loaded on input line 3055.
 Package cleveref Info: `listings' support loaded on input line 3131.
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 105.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 105.
-
-Package hyperref Info: Option `colorlinks' set `false' on input line 105.
+Package hyperref Info: Option `plainpages' set `false' on input line 106.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 106.
+Package hyperref Info: Option `colorlinks' set `false' on input line 106.
 )
 Package biblatex Info: Trying to load language 'danish'...
 Package biblatex Info: ... file 'danish.lbx' found.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\danis
-h.lbx"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\danish.lbx"
 File: danish.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count452
-\@quotereset=\count453
-(master.aux)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'danish'.
+ (master.aux)
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -1643,38 +1321,32 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 2.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mk
-ii"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count454
+\scratchcounter=\count458
 \scratchdimen=\dimen316
 \scratchbox=\box63
-\nofMPsegments=\count455
-\nofMParguments=\count456
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count457
+\nofMPsegments=\count459
+\nofMParguments=\count460
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count461
 \MPscratchDim=\dimen317
-\MPnumerator=\count458
-\makeMPintoPDFobject=\count459
-\everyMPtoPDFconversion=\toks61
+\MPnumerator=\count462
+\makeMPintoPDFobject=\count463
+\everyMPtoPDFconversion=\toks62
 )
-\c@lstlisting=\count460
+\c@lstlisting=\count464
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.st
-y"
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
@@ -1722,14 +1394,14 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout3 = `master-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'master.bbl' not found.
-No file master.bbl.
+Package biblatex Info: ... file 'master.bbl' found.
+(master.bbl)
 Package biblatex Info: Reference section=0 on input line 2.
 Package biblatex Info: Reference segment=0 on input line 2.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 2.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring OFF on input line 2.
 LaTeX Info: Redefining \ref on input line 2.
@@ -1743,12 +1415,11 @@ LaTeX Info: Redefining \nameref on input line 2.
 Kapitel 1.
 (sandsynlighed.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+ ("C:\Users\flufg\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -1765,23 +1436,21 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-Package hyperref Info: bookmark level for unknown frtheo defaults to 0 on input
- line 65.
+Package hyperref Info: bookmark level for unknown frtheo defaults to 0 on input line 65.
 ) [3] [4
 
 ]
 Kapitel 2.
 (vektorer.tex
-Package hyperref Info: bookmark level for unknown frdef defaults to 0 on input 
-line 2.
+Package hyperref Info: bookmark level for unknown frdef defaults to 0 on input line 2.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 15.
+(hyperref)                removing `math shift' on input line 16.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 15.
+(hyperref)                removing `math shift' on input line 16.
 
 [5]) [6]
 Kapitel 3.
@@ -1805,44 +1474,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 17.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 17.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 0A3E0A00D4D932A2B067BA6BCD6ABD0C;898.
+(rerunfilecheck)             Checksum: CB1ECA02DA6176699A6AB9F0BAA929F7;968.
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40125 strings out of 492946
- 758189 string characters out of 3126267
- 1143365 words of memory out of 3000000
- 43404 multiletter control sequences out of 15000+200000
+ 40654 strings out of 492946
+ 767123 string characters out of 3126267
+ 1162347 words of memory out of 3000000
+ 43916 multiletter control sequences out of 15000+200000
  548873 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,81p,1153b,1903s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecti1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\flufg\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\flufg\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\flufg\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Us
-ers\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.
-pk><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/flufg/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flufg/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flu
-fg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr6.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/flufg/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on master.pdf (8 pages, 233339 bytes).
+ 64i,11n,81p,1188b,1906s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\flufg\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/flufg/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on master.pdf (8 pages, 235401 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

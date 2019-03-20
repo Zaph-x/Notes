@@ -9,6 +9,7 @@ Det fremkommer af Det Euklidiske Rum, at en 4-vektor, kan skrives som $\mathbb{R
 	En vektor er i geometrien et objekt, der er defineret ved at have en længde og en retning.
 \end{frdef}
 
+
 \section{Geometrien i sæt af vektorer}
 Dette afsnit har til formål at beskrive det geometriske aspekt af vektorer. Det vil dække spænding af vektorer. 
 
@@ -25,7 +26,19 @@ Samtidig beskriver det ovenstående sæt også, at der for en 2-vektor, findes u
 
 I en spænding af $\set{[1,0],[0,1]}$, er de to vektorer standard for $\mathbb{R}^2$, hvorved hver 2-vektor er i spændingen. Dette betyder at sættet indeholder alle punkter i Den Euklidiske Plan.
 
+En 4-vektor kan også betegnes som et sæt af elementer eller en funktion. Betragt følgende vektor $\set{2.87,6.2,3.7,1.5}$. Dette kan betegnes som funktionen
+\begin{align}
+	\label{eqn:vec_func}
+	0&\mapsto 2.87\\
+	1&\mapsto 6.2\\
+	2&\mapsto 3.7\\
+	3&\mapsto 1.5
+\end{align}
 
+Samme 4-vektor kan repræsenteres som en Python Dictionary $\set{0:2.87, 1:6.2, 2:3.7, 3:1.5}$.
+
+\subsection{Sparsitet}
+En vektor hvis værdier alle er 0, kaldes en sparsom eller nul-vektor. Hvis ikke mindre end $k$ værdier i vektoren er 0, kaldes vektoren en k-sparsom vektor. Vektorer der repræsenterer data, der er opsamet af sensorer, er næste aldrig sparsomme vektorer
 
 \begin{frdef}[Generering af vektorer]
 	Lad V være et sæt af vektorer. Hvis $v_1,\dots,v_n$ er vektorer, således at $V=\set{v_1,\dots,v_n}$
