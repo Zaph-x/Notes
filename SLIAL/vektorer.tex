@@ -38,7 +38,20 @@ En 4-vektor kan også betegnes som et sæt af elementer eller en funktion. Betra
 Samme 4-vektor kan repræsenteres som en Python Dictionary $\set{0:2.87, 1:6.2, 2:3.7, 3:1.5}$.
 
 \subsection{Sparsitet}
-En vektor hvis værdier alle er 0, kaldes en sparsom eller nul-vektor. Hvis ikke mindre end $k$ værdier i vektoren er 0, kaldes vektoren en k-sparsom vektor. Vektorer der repræsenterer data, der er opsamet af sensorer, er næste aldrig sparsomme vektorer
+En vektor hvis værdier alle er 0, kaldes en sparsom eller nul-vektor. Hvis ikke mindre end $k$ værdier i vektoren er 0, kaldes vektoren en k-sparsom vektor. Vektorer der repræsenterer data, der er opsamet af sensorer, er næste aldrig sparsomme vektorer.
+
+\section{Hvad kan vises med vektorer}
+Mange ting kan vises med vektorer. Blandt disse ting er \emph{Binære strenge}, altså strænge at 1 og 0, der har en given værdi. Disse vises ved vektorer som $\set{1,0,0,1,1,0,1}$, hvor vektoresn længde, er det samme som længden af den binære streng. \emph{Attributer} kan også vises med vektorer. Dette er som vist i \cref{eqn:vec_func}, hvor to værdier kan sidestilles som en Python Dictionary. Mere relevant for sandsynlighedsteori, kan vi også repræsenterer \emph{Sandsynligheds distribution} med vekoterer. Dette vises igen som i \cref{eqn:vec_func}, hvor hver key er mapped til en værdi. \emph{Billeder} kan også vises som vektorer, da hvor farve har en RGB værdi, som kan afkodes til en binær værdi. Ydermere kan punkter i rummet plottes som vektorer, dog er dette givet ved Mat A adgangskursus, så dette behøver ikke yderligere forklaring.
+
+\section{Vektor addition}
+Vektor addition foregår som på Mat A adgangskurset. Dog vil denne sektion gå mere i dybten med vektor addition. 
+
+\begin{frdef}[KLEIN s. 69]
+	Addition af n-vekoterer er definieret ved addition af de respektive værdier.
+	$[u1,u2,u3] + [v1,v2,v3] = [u1+v1, u2+v2, u3+v3]$
+\end{frdef}
+
+Siden vektorer som $[1,2]$ kan bruges som et opslag, kan den tænkes som at overføre en værdi. Eksempelvis fra $[4,4]$ til $[5,6]$. Derfor må den også kunne adderes.
 
 \begin{frdef}[Generering af vektorer]
 	Lad V være et sæt af vektorer. Hvis $v_1,\dots,v_n$ er vektorer, således at $V=\set{v_1,\dots,v_n}$
