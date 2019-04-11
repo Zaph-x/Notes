@@ -1,9 +1,14 @@
-Dette kapitel vil beskrive todimensionale vektorer som 2-vektorer, og tredimensionelle vektorer som 3-vektorer. Der vil blive brugt bracket notation for vektorer. Det er her fordelagtigt at introducere Det Euklidiske Rum.
+Dette kapitel vil beskrive todimensionale vektorer som 2-vektorer, og tredimensionelle vektorer som 3-vektorer.
+Der vil blive brugt bracket notation for vektorer.
+Det er her fordelagtigt at introducere Det Euklidiske Rum.
 \begin{frdef}[Det Euklidiske Rum]\label{def:euklid_rum}
-	Det Euklidiske Rum, nogle gange kaldet det Kartesianske rum, eller $\mathbf{n}$-rummet, er rummet, der indeholder alle n-tupler, af reelle tal ($\set{x_1,x_2,\dots,x_n}$). $\mathbb{R}^n$ er derfor et vektorrum, og betegnes også som n-vektorer. Derved har man at $\mathbb{R}^1=\mathbb{R}$, $\mathbb{R}^2$ er Den Euklidiske Plan.
+	Det Euklidiske Rum, nogle gange kaldet det Kartesianske rum, eller $\mathbf{n}$-rummet, er rummet, der indeholder alle n-tupler, af reelle tal ($\set{x_1,x_2,\dots,x_n}$).
+$\mathbb{R}^n$ er derfor et vektorrum, og betegnes også som n-vektorer.
+Derved har man at $\mathbb{R}^1=\mathbb{R}$, $\mathbb{R}^2$ er Den Euklidiske Plan.
 \end{frdef}
 
-Det fremkommer af Det Euklidiske Rum, at en 4-vektor, kan skrives som $\mathbb{R}^4$. Dette er da Definition \ref{def:euklid_rum} siger, at n-vektorer, skal være $\mathbb{R}^n$.
+Det fremkommer af Det Euklidiske Rum, at en 4-vektor, kan skrives som $\mathbb{R}^4$.
+Dette er da Definition \ref{def:euklid_rum} siger, at n-vektorer, skal være $\mathbb{R}^n$.
 
 \begin{frdef}[Vektorer]
 	En vektor er i geometrien et objekt, der er defineret ved at have en længde og en retning.
@@ -11,7 +16,8 @@ Det fremkommer af Det Euklidiske Rum, at en 4-vektor, kan skrives som $\mathbb{R
 
 
 \section{Geometrien i sæt af vektorer}
-Dette afsnit har til formål at beskrive det geometriske aspekt af vektorer. Det vil dække spænding af vektorer. 
+Dette afsnit har til formål at beskrive det geometriske aspekt af vektorer.
+Det vil dække spænding af vektorer.
 
 \subsection{Spændinger af vektorer over $\mathbb{R}$}
  
@@ -20,13 +26,17 @@ Dette afsnit har til formål at beskrive det geometriske aspekt af vektorer. Det
 \end{equation}
 
 Ovenstående er et sæt, der kun indeholder lineære kombinationer, af en ikke-nul-vektor $v$.
-Hvis et tomt sæt af 2-vektorer skal beskrives, findes en vektor i sættet, en nul-vektor. Denne vektor er beskrevet som $[0,0]$, i vektor notation.
+Hvis et tomt sæt af 2-vektorer skal beskrives, findes en vektor i sættet, en nul-vektor.
+Denne vektor er beskrevet som $[0,0]$, i vektor notation.
 
 Samtidig beskriver det ovenstående sæt også, at der for en 2-vektor, findes uendelig mange punkter i eksempelvis $\set*{\alpha[2,3]; \alpha\in\mathbb{R}}$, hvor vektoren kan 
 
-I en spænding af $\set{[1,0],[0,1]}$, er de to vektorer standard for $\mathbb{R}^2$, hvorved hver 2-vektor er i spændingen. Dette betyder at sættet indeholder alle punkter i Den Euklidiske Plan.
+I en spænding af $\set{[1,0],[0,1]}$, er de to vektorer standard for $\mathbb{R}^2$, hvorved hver 2-vektor er i spændingen.
+Dette betyder at sættet indeholder alle punkter i Den Euklidiske Plan.
 
-En 4-vektor kan også betegnes som et sæt af elementer eller en funktion. Betragt følgende vektor $\set{2.87,6.2,3.7,1.5}$. Dette kan betegnes som funktionen
+En 4-vektor kan også betegnes som et sæt af elementer eller en funktion.
+Betragt følgende vektor $\set{2.87,6.2,3.7,1.5}$.
+Dette kan betegnes som funktionen
 \begin{align}
 	\label{eqn:vec_func}
 	0&\mapsto 2.87\\
@@ -38,20 +48,35 @@ En 4-vektor kan også betegnes som et sæt af elementer eller en funktion. Betra
 Samme 4-vektor kan repræsenteres som en Python Dictionary $\set{0:2.87, 1:6.2, 2:3.7, 3:1.5}$.
 
 \subsection{Sparsitet}
-En vektor hvis værdier alle er 0, kaldes en sparsom eller nul-vektor. Hvis ikke mindre end $k$ værdier i vektoren er 0, kaldes vektoren en k-sparsom vektor. Vektorer der repræsenterer data, der er opsamet af sensorer, er næste aldrig sparsomme vektorer.
+En vektor hvis værdier alle er 0, kaldes en sparsom eller nul-vektor.
+Hvis ikke mindre end $k$ værdier i vektoren er 0, kaldes vektoren en k-sparsom vektor.
+Vektorer der repræsenterer data, der er opsamet af sensorer, er næste aldrig sparsomme vektorer.
 
 \section{Hvad kan vises med vektorer}
-Mange ting kan vises med vektorer. Blandt disse ting er \emph{Binære strenge}, altså strænge at 1 og 0, der har en given værdi. Disse vises ved vektorer som $\set{1,0,0,1,1,0,1}$, hvor vektoresn længde, er det samme som længden af den binære streng. \emph{Attributer} kan også vises med vektorer. Dette er som vist i \cref{eqn:vec_func}, hvor to værdier kan sidestilles som en Python Dictionary. Mere relevant for sandsynlighedsteori, kan vi også repræsenterer \emph{Sandsynligheds distribution} med vekoterer. Dette vises igen som i \cref{eqn:vec_func}, hvor hver key er mapped til en værdi. \emph{Billeder} kan også vises som vektorer, da hvor farve har en RGB værdi, som kan afkodes til en binær værdi. Ydermere kan punkter i rummet plottes som vektorer, dog er dette givet ved Mat A adgangskursus, så dette behøver ikke yderligere forklaring.
+Mange ting kan vises med vektorer.
+Blandt disse ting er \emph{Binære strenge}, altså strænge at 1 og 0, der har en given værdi.
+Disse vises ved vektorer som $\set{1,0,0,1,1,0,1}$, hvor vektoresn længde, er det samme som længden af den binære streng.
+\emph{Attributer} kan også vises med vektorer.
+Dette er som vist i \cref{eqn:vec_func}, hvor to værdier kan sidestilles som en Python Dictionary.
+Mere relevant for sandsynlighedsteori, kan vi også repræsenterer \emph{Sandsynligheds distribution} med vekoterer.
+Dette vises igen som i \cref{eqn:vec_func}, hvor hver key er mapped til en værdi.
+\emph{Billeder} kan også vises som vektorer, da hvor farve har en RGB værdi, som kan afkodes til en binær værdi.
+Ydermere kan punkter i rummet plottes som vektorer, dog er dette givet ved Mat A adgangskursus, så dette behøver ikke yderligere forklaring.
 
 \section{Vektor addition}
-Vektor addition foregår som på Mat A adgangskurset. Dog vil denne sektion gå mere i dybten med vektor addition. 
+Vektor addition foregår som på Mat A adgangskurset.
+Dog vil denne sektion gå mere i dybten med vektor addition.
 
-\begin{frdef}[KLEIN s. 69]
-	Addition af n-vekoterer er definieret ved addition af de respektive værdier.
+
+\begin{frdef}[KLEIN s.
+69]
+	Addition af n-vekoterer er definieret ved addition af de respektive værdier.\\
 	$[u1,u2,u3] + [v1,v2,v3] = [u1+v1, u2+v2, u3+v3]$
 \end{frdef}
 
-Siden vektorer som $[1,2]$ kan bruges som et opslag, kan den tænkes som at overføre en værdi. Eksempelvis fra $[4,4]$ til $[5,6]$. Derfor må den også kunne adderes.
+Siden vektorer som $[1,2]$ kan bruges som et opslag, kan den tænkes som at overføre en værdi.
+Eksempelvis fra $[4,4]$ til $[5,6]$.
+Derfor må den også kunne adderes.
 
 Samtidig findes der regler for addition af vektorer, eksempelvis at
 \begin{equation}
@@ -62,8 +87,55 @@ Samt
 	(x+y)+z=x+(y+z)
 \end{equation}
 
+\section{Skalarproduktet}
+Ligesom med addition er dette også gennemgået på Mat A adgangskurset.
+Multiplikation af en vektor, med en skalar $\alpha$, svarer til at gange på hver værdi i vektoren.
+Dette kan eksemplificeres med vektoren $[3,4,7]$.
+Hvis denne ganges med skalaren 5, gøres dette på følgende vis:
+\begin{equation}
+	\label{eqn:scalar}
+	5[3,4,7] = [5\cdot3,5\cdot4,5\cdot7] = [15,20,35]
+\end{equation}
+Hvis der samtidig adderes en vektor på, følger dette de arritmetiske regler. 
+Der ganges først, så adderes der.
+Hvis en vektor ganges med et negativt tal, ændres fortegnet for alle elementer i vektoren.
+Dette betyder at vektoren vil ændre orientering.
+Samtidig gælder følgende for multiplikation af vektorer med ekstra skalarer:
+\begin{equation}
+	\label{eqn:scalar_mult}
+	\alpha(\beta v)=(\alpha\beta)v
+\end{equation}
+
+\subsection{Linjer gennem origo}
+Med vektorer kan linjer også tegnes fra origo.
+Dette kan blandt andet gøres med følgende sæt af punkter.
+\begin{equation}
+	\label{eqn:origo}
+	\set*{\alpha v; \alpha\in\mathrm{R},0\leq\alpha\leq1}
+\end{equation}
+Ovenstående sæt tenger en linje af punkter fra origo til $v$.
+Med python koden vist i \cref{lst:python_plot} gives følgende plot
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/vecplot.png}
+	\caption{Plot fra udsnittet \cref{lst:python_plot}}
+	\label{fig:plot_line}
+\end{figure}
+\begin{lstlisting}[language=Python,label=lst:python_plot,caption={Python kode til at generere plot i \cref{fig:plot_line}.\\Koden kan findes i ./labs/vectors/python\_plot.py}]
+import plotting as plot:
+
+def svm(a, v):
+    return [a*v[i] for i in range(len(v))]
+
+plot.plot([svm(i/100, [3,2]) for i in range(101)], 5) # plot image
+\end{lstlisting} 
+
+
+
+\section{Kombination af addition og skalering}
 
 
 \begin{frdef}[Generering af vektorer]
-	Lad V være et sæt af vektorer. Hvis $v_1,\dots,v_n$ er vektorer, således at $V=\set{v_1,\dots,v_n}$
+	Lad V være et sæt af vektorer.
+Hvis $v_1,\dots,v_n$ er vektorer, således at $V=\set{v_1,\dots,v_n}$
 \end{frdef}

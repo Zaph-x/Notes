@@ -4,11 +4,13 @@ Sandsynligheden, når man kaster en terning, kan beskrives med følgende formel:
 \begin{equation}
 	S=\set{H,T}
 \end{equation}
-Dette kaldes udfaldsrummet, og der den værdi, der beskriver sandsynligheden, for $\frac{1}{n}$. Det er en endelig mængde, og kan omskrives til 
+Dette kaldes udfaldsrummet, og der den værdi, der beskriver sandsynligheden, for $\frac{1}{n}$.
+Det er en endelig mængde, og kan omskrives til 
 \begin{equation}
     S=\set{a_1,a_2,\dots,a_n}
 \end{equation}
-Når man vil finde udfaldet af $k$ elementer, i en liste med længden $n$, hvor man trækker tilfældige elementer, kan mange bruge binomialfordelinger. Når man regner binominialkoeficienter, findes der flere forskellige måder at udregne disse på. 
+Når man vil finde udfaldet af $k$ elementer, i en liste med længden $n$, hvor man trækker tilfældige elementer, kan mange bruge binomialfordelinger.
+Når man regner binominialkoeficienter, findes der flere forskellige måder at udregne disse på.
 
 \begin{table}[h!]
 	\centering
@@ -21,7 +23,9 @@ Når man vil finde udfaldet af $k$ elementer, i en liste med længden $n$, hvor 
 Her er $n$ mængden, og $k$ er antallet af elementer, som vi vil finde.
 
 \subsection{Kortspil}
-I et normalt deck af kort, findes der 52 kort, uden jokeren. Her kan man regne på, hvad sandsynligheden for at trække et bestemt kort er, ved at udregne permutationer, med ingen gentagelser. I følgende eksempel trækkes 4 kort.
+I et normalt deck af kort, findes der 52 kort, uden jokeren.
+Her kan man regne på, hvad sandsynligheden for at trække et bestemt kort er, ved at udregne permutationer, med ingen gentagelser.
+I følgende eksempel trækkes 4 kort.
 \begin{equation}
 	\binom{52}{4}=C(52,4)=\frac{52!}{4!(52-4)!}=270,725
 \end{equation}
@@ -29,7 +33,8 @@ Dette vil altså sige at der er en 277,725 mulige udfald, af de fire kort.
 For at finde sandsynligheden for at trække 4 Esser, kan man simpelt skrive $\frac{4}{52}$.
 
 \subsection{Lotto!}
-I et spil lotto udtrækkes der $r$ numre af $n$ tal. Hvis vi vil finde sandsynligheden for at det første tal er rigtigt, men resten er forkerte, kan vi bruge følgende formel:
+I et spil lotto udtrækkes der $r$ numre af $n$ tal.
+Hvis vi vil finde sandsynligheden for at det første tal er rigtigt, men resten er forkerte, kan vi bruge følgende formel:
 \begin{equation}
 	\frac{\binom{r}{1}\cdot\binom{n-r}{r-1}}{\binom{n}{r}}
 \end{equation}
@@ -39,7 +44,11 @@ I et tilfælde hvor vi har med en mængde på 48 at gøre, og der hver gang træ
 \end{equation}
 
 \subsubsection{Monty Hall problemet}
-I et gameshow bedes en deltager om at vælge en af tre døre. Bag en af disse døre er der en præmie. Når deltageren har valgt en dør, åbner værten en dør, hvor præmien ikke er bag ved. Monty Hall problemet siger at hvis deltageren skifter dør, efter at værten har valgt, vil resultere i $\frac{2}{3}$ chance for at vinde præmien. Dette kan bevises matematiks ved følgende udtryk
+I et gameshow bedes en deltager om at vælge en af tre døre.
+Bag en af disse døre er der en præmie.
+Når deltageren har valgt en dør, åbner værten en dør, hvor præmien ikke er bag ved.
+Monty Hall problemet siger at hvis deltageren skifter dør, efter at værten har valgt, vil resultere i $\frac{2}{3}$ chance for at vinde præmien.
+Dette kan bevises matematiks ved følgende udtryk
 \begin{equation}
 P(A)=\frac{1}{3}
 \end{equation}
@@ -60,10 +69,14 @@ Hvis man kaster en terning, hvor siderne 2 og 4 er vægtede og dermed giver en 3
 \end{align*}
 
 \section{Bayes Sætning}
-Hvis vi antager at vi ved hvad antallet af events er, kan vi med Bayes sætning, bestemme sandsynligheden, for et af samme events. Dette kan sidestilles med emails. Vi ved hvor mange emails der er spam. Med dette kan vi bestemme sandsynligheden for at næste email er spam.
+Hvis vi antager at vi ved hvad antallet af events er, kan vi med Bayes sætning, bestemme sandsynligheden, for et af samme events.
+Dette kan sidestilles med emails.
+Vi ved hvor mange emails der er spam.
+Med dette kan vi bestemme sandsynligheden for at næste email er spam.
 \\\\
 \begin{frtheo}[Bayes S\ae tning]
-Antag at $E$ og $F$ er events fra vores sample $S$, således at $p(E)\neq0$ og $p(F)\neq0$. Så kan vi sige
+Antag at $E$ og $F$ er events fra vores sample $S$, således at $p(E)\neq0$ og $p(F)\neq0$.
+Så kan vi sige
 \begin{equation}
 	p(E|F)=\frac{p(E|F)p(F)}{p(E|F)p(F)+p(E|\overline{F})p(\overline{F})}
 \end{equation}
@@ -81,7 +94,8 @@ Bayes Baseform opskrives som
 	p(F|E)=\frac{p(E|F)p(F)}{p(E)}
 \end{equation}
 
-I et tilfælde hvor vores $p(E)= \frac{1}{3}$, $p(F)=\frac{1}{2}$ og $p(E|F)=\frac{2}{5}$. Her vil vi finde $p(F|E)$.
+I et tilfælde hvor vores $p(E)= \frac{1}{3}$, $p(F)=\frac{1}{2}$ og $p(E|F)=\frac{2}{5}$.
+Her vil vi finde $p(F|E)$.
 \begin{equation}
 	\frac{\frac{2}{5}\cdot\frac{1}{2}}{\frac{1}{3}}=\frac{3}{5}=0.6
 \end{equation}
