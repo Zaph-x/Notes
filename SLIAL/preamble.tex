@@ -44,6 +44,19 @@
   backgroundcolor=\color{black!1},
 }
 
+\lstset{language=Python,
+  caption={Python kode udsnit},
+  label=DescriptiveLabel,
+  numbers=left, numberstyle=\tiny,
+  xleftmargin=\parindent,
+  backgroundcolor=\color{black!1},
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{keywordPurple},
+  commentstyle=\itshape\color{stringRed},
+  identifierstyle=\color{indentifierPurple},
+  stringstyle=\color{commentGreen},
+}
+
 \lstdefinestyle{customcsharp}{
   belowcaptionskip=1\baselineskip,
   breaklines=true,
@@ -51,6 +64,21 @@
   rulecolor=\color{black!20},
   xleftmargin=\parindent,
   language=[Sharp]C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{keywordPurple},
+  commentstyle=\itshape\color{stringRed},
+  identifierstyle=\color{indentifierPurple},
+  stringstyle=\color{commentGreen},
+}
+
+\lstdefinestyle{custonpython}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=tlrb,
+  rulecolor=\color{black!20},
+  xleftmargin=\parindent,
+  language=Python,
   showstringspaces=false,
   basicstyle=\footnotesize\ttfamily,
   keywordstyle=\bfseries\color{keywordPurple},
@@ -67,7 +95,7 @@
   basicstyle=\footnotesize\ttfamily,
 }
 
-\lstset{escapechar=@,style=customcsharp}
+\lstset{escapechar=¤,style=customcsharp}
 \definecolor{hisyntxcolor}{rgb}{0.95, 0.95, 0.96}
 \newtcbox{\hisyntx}{nobeforeafter, colback=hisyntxcolor!80,boxrule=0pt,boxsep=0pt,left=4pt,right=4pt,top=3.5pt,bottom=3.5pt,tcbox raise base}
 
@@ -153,18 +181,7 @@
 
 \usepackage{nameref}                                            % Allows you to refer to sections by name
 \usepackage{hyperref}                                           % Enable hyperlinks and other referencing methods
-\usepackage{cleveref}                                           % Better figure, table and section referencing
-\crefname{appendix}{bilag}{bilag}
-\crefname{subappendix}{bilag}{bilag}
-\crefname{subsubappendix}{bilag}{bilag}
-\crefname{section}{afsnit}{afsnit}
-\crefname{subsection}{afsnit}{afsnit}
-\crefname{subsubsection}{afsnit}{afsnit}
-\crefname{chapter}{kapitel}{kapitel}
-\crefname{figure}{Figur}{Figur}
-\crefname{table}{Tabel}{Tabel}
-\crefname{equation}{Ligning}{Ligning}
-\crefname{tikzpicture}{Graf}{Graf}
+\usepackage[danish]{cleveref}                                           % Better figure, table and section referencing
 \usepackage{nameref}                                            % Load again to fix compatibility issues
 
 \hypersetup{                                                    % Set up the pdf with correct data
