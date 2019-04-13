@@ -121,16 +121,35 @@ Med python koden vist i \cref{lst:python_plot} gives følgende plot
 	\caption{Plot fra udsnittet \cref{lst:python_plot}}
 	\label{fig:plot_line}
 \end{figure}
-\begin{lstlisting}[language=Python,label=lst:python_plot,caption={Python kode til at generere plot i \cref{fig:plot_line}.\\Koden kan findes i ./labs/vectors/python\_plot.py}]
-import plotting as plot:
+\lstinputlisting[
+	language=Python,
+	firstline=4,
+	lastline=7,
+	firstnumber=4,
+	label=lst:python_plot,
+	caption={Python kode til at generere plot i \cref{fig:plot_line}.\\Koden kan findes i ./labs/vectors/python\_plot.py}
+]{labs/vectors/python_plot.py}
 
-def svm(a, v):
-    return [a*v[i] for i in range(len(v))]
+I kombination med at segmenter af linjer, kan samles til hele linjer og at der kan dannes uendelig mange skalar vektorer, kan vi danne figurer, når $\alpha$ strækker sig over flere tal.
+Skalarprodukter $<1$ giver anledning til kopier af $v$, samtidig med at negative Skalarprodukter giver anledning til vektorer der peger i den anden retning.
+Sættet af punkter $\set*{\alpha v;\alpha\in \mathrm{R}}$ strækker sig fra $-\infty;\infty$, og producerer derfor følgende plot:
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/thrh_origin.png}
+	\caption{Sættet $\set*{\alpha v;\alpha\in \mathrm{R}}$ plottet i en graf.
+	Både $x$ og $y$ aksen går fra $-\infty;\infty$}
+	\label{fig:plot_through}
+\end{figure}
 
-plot.plot([svm(i/100, [3,2]) for i in range(101)], 5) # plot image
-\end{lstlisting} 
-
-
+Grafen i \cref{fig:plot_through} kan laves med følgende stykke python kode:
+\lstinputlisting[
+	language=Python,
+	firstline=4,
+	lastline=7,
+	firstnumber=4,
+	label=lst:scalar_plot,
+	caption={Python kode til at generere plot i \cref{fig:plot_through}.\\Koden kan findes i ./labs/vectors/scalar\_plot.py}
+]{labs/vectors/scalar_plot.py}
 
 \section{Kombination af addition og skalering}
 
