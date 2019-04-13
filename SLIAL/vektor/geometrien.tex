@@ -1,0 +1,48 @@
+\section{Geometrien i sæt af vektorer}
+Dette afsnit har til formål at beskrive det geometriske aspekt af vektorer.
+Det vil dække spænding af vektorer.
+
+\subsection{Spændinger af vektorer over $\mathbb{R}$}
+ 
+\begin{equation}
+	\mathrm{Span}\{v\}=\set*{\alpha v; \alpha\in\mathbb{R}}
+\end{equation}
+
+Ovenstående er et sæt, der kun indeholder lineære kombinationer, af en ikke-nul-vektor $v$.
+Hvis et tomt sæt af 2-vektorer skal beskrives, findes en vektor i sættet, en nul-vektor.
+Denne vektor er beskrevet som $[0,0]$, i vektor notation.
+
+Samtidig beskriver det ovenstående sæt også, at der for en 2-vektor, findes uendelig mange punkter i eksempelvis $\set*{\alpha[2,3]; \alpha\in\mathbb{R}}$, hvor vektoren kan 
+
+I en spænding af $\set{[1,0],[0,1]}$, er de to vektorer standard for $\mathbb{R}^2$, hvorved hver 2-vektor er i spændingen.
+Dette betyder at sættet indeholder alle punkter i Den Euklidiske Plan.
+
+En 4-vektor kan også betegnes som et sæt af elementer eller en funktion.
+Betragt følgende vektor $\set{2.87,6.2,3.7,1.5}$.
+Dette kan betegnes som funktionen
+\begin{align}
+	\label{eqn:vec_func}
+	0&\mapsto 2.87\\
+	1&\mapsto 6.2\\
+	2&\mapsto 3.7\\
+	3&\mapsto 1.5
+\end{align}
+
+Samme 4-vektor kan repræsenteres som en Python Dictionary $\set{0:2.87, 1:6.2, 2:3.7, 3:1.5}$.
+
+\subsection{Sparsitet}
+En vektor hvis værdier alle er 0, kaldes en sparsom eller nul-vektor.
+Hvis ikke mindre end $k$ værdier i vektoren er 0, kaldes vektoren en k-sparsom vektor.
+Vektorer der repræsenterer data, der er opsamet af sensorer, er næste aldrig sparsomme vektorer.
+
+\section{Hvad kan vises med vektorer}
+Mange ting kan vises med vektorer.
+Blandt disse ting er \emph{Binære strenge}, altså strænge at 1 og 0, der har en given værdi.
+Disse vises ved vektorer som $\set{1,0,0,1,1,0,1}$, hvor vektoresn længde, er det samme som længden af den binære streng.
+\emph{Attributer} kan også vises med vektorer.
+Dette er som vist i \cref{eqn:vec_func}, hvor to værdier kan sidestilles som en Python Dictionary.
+Mere relevant for sandsynlighedsteori, kan vi også repræsenterer \emph{Sandsynligheds distribution} med vekoterer.
+Dette vises igen som i \cref{eqn:vec_func}, hvor hver key er mapped til en værdi.
+\emph{Billeder} kan også vises som vektorer, da hvor farve har en RGB værdi, som kan afkodes til en binær værdi.
+Ydermere kan punkter i rummet plottes som vektorer, dog er dette givet ved Mat A adgangskursus, så dette behøver ikke yderligere forklaring.
+
