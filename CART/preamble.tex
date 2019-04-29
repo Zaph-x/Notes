@@ -1,0 +1,217 @@
+\documentclass[11pt, twoside, a4paper, openright]{report}         % This sets up the documentclass with font size and paper size already set
+\usepackage[utf8]{inputenc}                                     % This will make the document use UTF-8 characters
+\usepackage[danish]{babel}                                      % Changing the language to English, if this is not the default
+\usepackage[T1]{fontenc}                                        % The font encoding
+
+
+
+%%%%%%%%% GRAPHICS %%%%%%%%%%
+
+\usepackage{graphics,graphicx}
+\usepackage{epstopdf}
+\usepackage{listings}                                           % OPTIONAL - This will allow for code listings in the report
+\usepackage{tabularx}                                           % Allows for tables in the report
+\usepackage{array, booktabs}                                    % Better table formatting
+\usepackage{color}                                              % Allows for use of colours
+\usepackage{xcolor}                                             % More colours
+
+\usepackage{caption}                                            % Allows for custom cations
+\captionsetup{font=footnotesize, labelfont=bf}                  % Sets the font size in the custom captions, as well as font type to bold
+
+\usepackage{framed}                                             % Allow frames around listings and theorems
+
+%%%%%%%% OPTIONAL LISTING MODIFIERS %%%%%%%%%
+
+%%%%%%%% CODE %%%%%%%%%%%
+
+% Adds code snippet functionality
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Kodeuddrag}
+\usepackage{tcolorbox}
+
+\definecolor{commentGreen}{RGB}{34,139,24}
+\definecolor{stringPurple}{RGB}{208,76,239}
+\definecolor{keywordPurple}{RGB}{168,26,143}
+\definecolor{indentifierPurple}{RGB}{91,44,151}
+\definecolor{stringRed}{RGB}{194,29,32}
+\definecolor{commentGreen}{RGB}{22,150,25}
+\usepackage{tgheros}
+
+\lstset{language=[Sharp]C,
+  caption={Uddrag af C\# program},
+  label=DescriptiveLabel,
+  numbers=left, numberstyle=\tiny,
+  backgroundcolor=\color{black!1},
+}
+
+\lstset{language=Python,
+  caption={Python kode udsnit},
+  label=DescriptiveLabel,
+  numbers=left, numberstyle=\tiny,
+  xleftmargin=\parindent,
+  backgroundcolor=\color{black!1},
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{keywordPurple},
+  commentstyle=\itshape\color{stringRed},
+  identifierstyle=\color{indentifierPurple},
+  stringstyle=\color{commentGreen},
+}
+
+\lstdefinestyle{customcsharp}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=tlrb,
+  rulecolor=\color{black!20},
+  xleftmargin=\parindent,
+  language=[Sharp]C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{keywordPurple},
+  commentstyle=\itshape\color{stringRed},
+  identifierstyle=\color{indentifierPurple},
+  stringstyle=\color{commentGreen},
+}
+
+\lstdefinestyle{custonpython}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=tlrb,
+  rulecolor=\color{black!20},
+  xleftmargin=\parindent,
+  language=Python,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{keywordPurple},
+  commentstyle=\itshape\color{commentGreen},
+  identifierstyle=\color{indentifierPurple},
+  stringstyle=\color{stringRed},
+}
+
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  frame=L,
+  xleftmargin=\parindent,
+  language=[x86masm]Assembler,
+  basicstyle=\footnotesize\ttfamily,
+}
+
+\lstset{escapechar=``,style=customcsharp}
+\definecolor{hisyntxcolor}{rgb}{0.95, 0.95, 0.96}
+\newtcbox{\hisyntx}{nobeforeafter, colback=hisyntxcolor!80,boxrule=0pt,boxsep=0pt,left=4pt,right=4pt,top=3.5pt,bottom=3.5pt,tcbox raise base}
+
+%%%%%%%% MATHEMATICS %%%%%%%%
+
+\usepackage{amsmath}                                            % Allign correctly
+\usepackage{amssymb}                                            % More mathematica symbols
+\usepackage{amsthm}                                             % Theorems
+\usepackage{mdframed}
+\usepackage[amssymb]{SIunits}                                   % Support SI units
+\usepackage{units}                                              % Typeset units correct
+\usepackage{amsfonts}                                           % Math fonts   
+\usepackage{mathtools}      
+\usepackage{xparse}  
+%\usepackage[framed,amsmath,thmmarks]{ntheorem}                  % Allows theorems. With amsmath you can also you \eqref{label} to reference an equation
+
+\newtheoremstyle{note}% <name>
+{3pt}% <Space above>
+{3pt}% <Space below>
+{}% <Body font>
+{}% <Indent amount>
+{\itshape\bfseries\large}% <Theorem head font>
+{.\newline}% <Punctuation after theorem head>
+{.5em}% <Space after theorem headi>
+{}% <Theorem head spec (can be left empty, meaning `normal')>
+\theoremstyle{note}
+\newtheorem{frtheo}{Sætning}
+\newtheorem{frdef}{Definition}
+\newtheorem{frlem}{Lemma}
+\newtheorem{frex}{Eksempel}
+\surroundwithmdframed[backgroundcolor=blue!10,linecolor=blue!10]{frtheo}
+\surroundwithmdframed[backgroundcolor=blue!10,linecolor=blue!10]{frdef}
+\surroundwithmdframed[backgroundcolor=blue!10,linecolor=blue!10]{frlem}
+\surroundwithmdframed[backgroundcolor=blue!10,linecolor=blue!10]{frex}
+\usepackage{tikz,tkz-graph,tkz-berge}
+\renewcommand*{\VertexLineWidth}{1pt}%vertex thickness
+\renewcommand*{\EdgeLineWidth}{1pt}% edge thickness
+
+%%%%%%% LAYOUT %%%%%%%%
+
+\usepackage[inner=28mm,outer=41mm,]{geometry}                   % Corrects the margins
+\usepackage{titlesec}                                           % Prettier titles
+\titleformat{\chapter}[hang]{                                   % Format the chapter title
+    \normalfont\Huge\bfseries                                   % Format the chapter title
+}{    \chaptertitlename\ \thechapter}{20pt}{\Huge}              % Format the chapter title
+\titleformat*{\section}{\normalfont\Large\bfseries}             % Format section titles
+\titleformat*{\subsection}{\normalfont\large\bfseries}          % Format subsection titles
+\titleformat*{\subsubsection}{\normalfont\normalsize\bfseries}  % Format subsubsection titles
+
+\usepackage{csquotes}
+\usepackage{fancyhdr}                                           % Fancy headers
+\pagestyle{fancy}                                               % Set the pagestyle to being fancy. This will write the chapter and page number to the header
+\setlength{\headheight}{13.6pt}
+\fancyhf{}                                                      % Clear the header and footer
+\fancyhead[RE]{\small\nouppercase\leftmark}                     % Even pages have the chapter title
+\fancyhead[LO]{\small\nouppercase\rightmark}                    % Odd pages have the section title
+\fancyhead[LE,RO]{\thepage}                                     % Pagenumber on every page
+\raggedbottom                                                   % Do not streach content. Instead replace it with a whitespace
+
+\renewcommand{\headrulewidth}{0pt}                              % OPTIONAL Remove the header line seperating header and page
+
+\usepackage{calc}                                               % Better layout formatting. Allows for arithmetics with length and such
+
+%%%%%%% BIBLIOGRAPHY %%%%%%%%%
+
+\usepackage[                                                    % Format of bibliography
+    backend=bibtex,                                             % Use bibtex as backend manager
+    style=nature,                                               % Style the bibliography right (See https://www.overleaf.com/learn/latex/Biblatex_citation_styles for more styles)
+    bibencoding=utf8                                            % Encode bibliography with UTF-8 charset
+]{biblatex}                                                     % Format of bibliography                           
+%\bibliography{bib/mybib}
+
+%%%%%%% GOOD TO HAVES %%%%%%%%%
+
+\usepackage[nottoc]{tocbibind}                                  % Add bibliography to table of contents
+\usepackage{lastpage}                                           % Allows you to reference the last page of the paper
+\usepackage[                                                    % Adds todo notes to the document
+    textwidth=\marginparwidth,                                  % Sets the text width og the todo notes as the width of the margin
+    textsize=scriptsize                                         % Sets the fint size to a smaller size for more compact notes
+]{todonotes}                                                    % Adds todo notes to the document
+
+%%%%%%% REFERENCING AND LINKS %%%%%%%%
+
+\usepackage{nameref}                                            % Allows you to refer to sections by name
+\usepackage{hyperref}                                           % Enable hyperlinks and other referencing methods
+\usepackage[danish]{cleveref}                                           % Better figure, table and section referencing
+%\crefname{appendix}{bilag}{bilag}
+%\crefname{subappendix}{bilag}{bilag}
+%\crefname{subsubappendix}{bilag}{bilag}
+%\crefname{section}{afsnit}{afsnit}
+%\crefname{subsection}{afsnit}{afsnit}
+%\crefname{subsubsection}{afsnit}{afsnit}
+%\crefname{chapter}{kapitel}{kapitel}
+\crefname{figure}{Figur}{Figur}
+\crefname{table}{Tabel}{Tabel}
+\crefname{equation}{Ligning}{Ligning}
+\crefname{tikzpicture}{Graf}{Graf}
+\usepackage{nameref}                                            % Load again to fix compatibility issues
+
+\hypersetup{                                                    % Set up the pdf with correct data
+	plainpages=false,                                           
+	pdfauthor={Author(s)},                                      % Here you put your names
+	pdftitle={Title},                                           % This should by default save it with the correct title
+	pdfsubject={Subject},                                       % The subject of the report
+	bookmarksnumbered=true,
+	colorlinks=false,                                           % Are links coloured?
+	citecolor=black,                                            % Colour of the citations
+	filecolor=black,                                            % Colour of files
+	linkcolor=black,                                            % Colour of links
+	urlcolor=black,                                             % Colour of URLs
+	pdfstartview=FitH                                           % How should the PDF scale when loaded into viewer
+}
+
+\DeclarePairedDelimiterX{\set}[1]{\{}{\}}{\setargs{#1}}
+\NewDocumentCommand{\setargs}{>{\SplitArgument{1}{;}}m}
+{\setargsaux#1}
+\NewDocumentCommand{\setargsaux}{mm}
+{\IfNoValueTF{#2}{#1} {#1\nonscript\:\delimsize\vert\allowbreak\nonscript\:\mathopen{}#2}}%
+\def\Set{\set*}%
