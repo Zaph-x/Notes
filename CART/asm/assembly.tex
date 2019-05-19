@@ -1,8 +1,31 @@
-\section{Assembly sproget}
-Assembly sproget er det tætteste vi kommer på maskinkode.
-Derfor er det essentielt for computer arkitektur faget, at undervise i dette.
+\section{x64 Assembly}
 \subsection{Registre}
-
+x64 Assembly kode har 16 64-bit registre at gøre godt med. 
+Disse 16 registre kan ydermere opdeles i 32- 16- og 8-bit registre, som vist i \cref{tab:registers}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|ccc}
+        8-byte register&Bytes 0-3&Bytes 0-1&Byte 0\\\hline
+        \verb|%rax|&\verb|%eax|&\verb|%ax|&\verb|%al|\\
+        \verb|%rcx|&\verb|%ecx|&\verb|%cx|&\verb|%cl|\\
+        \verb|%rdx|&\verb|%edx|&\verb|%dx|&\verb|%dl|\\
+        \verb|%rbx|&\verb|%ebx|&\verb|%bx|&\verb|%bl|\\
+        \verb|%rsi|&\verb|%esi|&\verb|%si|&\verb|%sil|\\
+        \verb|%rdi|&\verb|%edi|&\verb|%di|&\verb|%dil|\\
+        \verb|%rsp|&\verb|%esp|&\verb|%sp|&\verb|%spl|\\
+        \verb|%rbp|&\verb|%ebp|&\verb|%bp|&\verb|%bpl|\\
+        \verb|%r8|&\verb|%r8d|&\verb|%r8w|&\verb|%r8b|\\
+        \verb|%r9|&\verb|%r9d|&\verb|%r9w|&\verb|%r9b|\\
+        \verb|%r10|&\verb|%r10d|&\verb|%r10w|&\verb|%r10b|\\
+        \verb|%r11|&\verb|%r11d|&\verb|%r11w|&\verb|%r11b|\\
+        \verb|%r12|&\verb|%r12d|&\verb|%r12w|&\verb|%r12b|\\
+        \verb|%r13|&\verb|%r13d|&\verb|%r13w|&\verb|%r13b|\\
+        \verb|%r14|&\verb|%r14d|&\verb|%r14w|&\verb|%r14b|\\
+        \verb|%r15|&\verb|%r15d|&\verb|%r15w|&\verb|%r15b|
+    \end{tabular}
+    \caption{Oversigt over registre i x64 Assembly}
+    \label{tab:registers}
+\end{table}
 
 \subsection{Ord og bytes}
 Indenfor Assembly arbejdes der med ord og bytes.
