@@ -1,0 +1,22 @@
+\section{Operationer}
+For bits findes der operationer, som vist i DTG.
+Disse er bitvise, og noteres som vist i \cref{tab:operations}.
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|l|l}
+        Operation&Navn&resultat\\\hline
+        x|y&eller&$1011$ Da disse bit findes i enten eller af strengene.\\
+        x\&y&og&$0001$ Da denne bit deles af de to strenge.\\
+        x\^y&XOR&$1010$ Da disse bits enten er i den ene eller den anden streng.\\
+        ~x&negation&$1100$ Da alle bits vendes.\\
+        y>>3 &Logisk højreskift&$0001$ Da bitværdien skifter 3 pladser mod højre.\\
+        x<<3 &Logisk venstreskift&$1000$ Da bitværdien skifter 3 pladser mod venstre.\\
+        y>>2 &Aritmetisk højreskift&$1110$ Da bitværdien skifter 3 pladser mod højre.\\
+        x<<2 &Aritmetisk venstreskift&$1111$ Da bitværdien skifter 3 pladser mod venstre.\\
+    \end{tabular}
+    }
+    \caption{Bitvise operationer og deres resultater. Der er taget udgangspunkt i $x=0011,\:y=1001$}
+    \label{tab:operations}
+\end{table}
+For Aritmetiske skift, indsættes 1 på den nye plads, hvor ved Logiske skift, indsættes 0.
