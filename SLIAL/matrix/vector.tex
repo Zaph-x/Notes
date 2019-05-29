@@ -1,0 +1,20 @@
+\section{Vektorer som matricer}
+For at definere en matrice ud fra en \textit{D-vektor} over $\mathbb{F}$, gives det at $R\times C$ er en matrice over $\mathbb{F}$.
+Her er det kartetiske produkt $R\times C$.
+Denne matrice kan repræsenteres som:
+\begin{figure}[h!]
+    \centering
+    \begin{tabular}{c|ccc}
+        & @ & \# & ?\\\hline
+        a&1&2&3\\
+        b&10&20&30
+    \end{tabular}
+    \label{tab:matrix}
+    \caption{"Eksempel på en vektor matrice."}
+\end{figure}
+
+I \cref{tab:matrix} er rækkernes labels givet langs siden, og kolonnernes labels er listet ovenfor matricen.
+Ydermere kan matricen, med python kode, beskrives på følgende måde
+\begin{lstlisting}[language=Python,label=lst:matrix_python]
+    >>> {('a','@'):1, ('a','#'):2, ('a','?'):3, ('b','@'):10, ('b','#'):20, ('b','?'):30}
+\end{lstlisting} 
