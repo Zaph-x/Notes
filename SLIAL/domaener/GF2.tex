@@ -1,0 +1,33 @@
+\section{GF(2)}
+$GF(2)4$ er kort for \textit{Galois Field 2}. 
+$GF(2)$ er relativt nemt at forklare, da dette kun dækker talene 1 og 0.
+Derfor kan aritmetikken i $GF(2)$ også nemt dækkes.
+Aritmetikken kan opsummeres i de følgende to tabeller:
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|cc}
+        $\times$&0&1\\\hline
+        0&0&0\\
+        1&0&1
+    \end{tabular}
+    \label{tab:fields}
+    \caption{Multiplikation i $GF(2)$}
+\end{table}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|cc}
+        +&0&1\\\hline
+        0&0&1\\
+        1&1&0
+    \end{tabular}
+    \label{tab:fields}
+    \caption{Addition i $GF(2)$}
+\end{table}
+Addition i $GF(2)$ foregår i modulo 2.
+Multiplikation foregår præcis som normal Multiplikation.
+Dette fremkommer også af \cref{lst:gf2lab}
+\lstinputlisting[
+	language=Python,
+    label=lst:gf2lab,
+	caption={Python kode til udregning af $GF(2)$.\\Koden kan findes i ./labs/fields/gf2lab.py}
+]{labs/fields/gf2lab.py}
