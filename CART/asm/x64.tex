@@ -4,24 +4,24 @@ x64 Assembly kode har 16 64-bit registre at gøre godt med.
 Disse 16 registre kan ydermere opdeles i 32- 16- og 8-bit registre, som vist i \cref{tab:registers}
 \begin{table}[h!]
     \centering
-    \begin{tabular}{c|ccc}
-        8-byte register&Bytes 0-3&Bytes 0-1&Byte 0\\\hline
-        \verb|%rax|&\verb|%eax|&\verb|%ax|&\verb|%al|\\
-        \verb|%rcx|&\verb|%ecx|&\verb|%cx|&\verb|%cl|\\
-        \verb|%rdx|&\verb|%edx|&\verb|%dx|&\verb|%dl|\\
-        \verb|%rbx|&\verb|%ebx|&\verb|%bx|&\verb|%bl|\\
-        \verb|%rsi|&\verb|%esi|&\verb|%si|&\verb|%sil|\\
-        \verb|%rdi|&\verb|%edi|&\verb|%di|&\verb|%dil|\\
-        \verb|%rsp|&\verb|%esp|&\verb|%sp|&\verb|%spl|\\
-        \verb|%rbp|&\verb|%ebp|&\verb|%bp|&\verb|%bpl|\\
-        \verb|%r8|&\verb|%r8d|&\verb|%r8w|&\verb|%r8b|\\
-        \verb|%r9|&\verb|%r9d|&\verb|%r9w|&\verb|%r9b|\\
-        \verb|%r10|&\verb|%r10d|&\verb|%r10w|&\verb|%r10b|\\
-        \verb|%r11|&\verb|%r11d|&\verb|%r11w|&\verb|%r11b|\\
-        \verb|%r12|&\verb|%r12d|&\verb|%r12w|&\verb|%r12b|\\
-        \verb|%r13|&\verb|%r13d|&\verb|%r13w|&\verb|%r13b|\\
-        \verb|%r14|&\verb|%r14d|&\verb|%r14w|&\verb|%r14b|\\
-        \verb|%r15|&\verb|%r15d|&\verb|%r15w|&\verb|%r15b|
+    \begin{tabular}{c|ccc|c}
+        8-byte register&Bytes 0-3&Bytes 0-1&Byte 0&reg type\\\hline
+        \verb|%rax|&\verb|%eax|&\verb|%ax|&\verb|%al|&Return value\\
+        \verb|%rcx|&\verb|%ecx|&\verb|%cx|&\verb|%cl|&Callee value\\
+        \verb|%rdx|&\verb|%edx|&\verb|%dx|&\verb|%dl|&4 argument\\
+        \verb|%rbx|&\verb|%ebx|&\verb|%bx|&\verb|%bl|&3 argument\\
+        \verb|%rsi|&\verb|%esi|&\verb|%si|&\verb|%sil|&2 argument\\
+        \verb|%rdi|&\verb|%edi|&\verb|%di|&\verb|%dil|&1 argument\\
+        \verb|%rsp|&\verb|%esp|&\verb|%sp|&\verb|%spl|&Callee saved\\
+        \verb|%rbp|&\verb|%ebp|&\verb|%bp|&\verb|%bpl|&Stack pointer\\
+        \verb|%r8|&\verb|%r8d|&\verb|%r8w|&\verb|%r8b|&5 argument\\
+        \verb|%r9|&\verb|%r9d|&\verb|%r9w|&\verb|%r9b|&6 argument\\
+        \verb|%r10|&\verb|%r10d|&\verb|%r10w|&\verb|%r10b|&Caller saved\\
+        \verb|%r11|&\verb|%r11d|&\verb|%r11w|&\verb|%r11b|&Caller saved\\
+        \verb|%r12|&\verb|%r12d|&\verb|%r12w|&\verb|%r12b|&Callee saved\\
+        \verb|%r13|&\verb|%r13d|&\verb|%r13w|&\verb|%r13b|&Callee saved\\
+        \verb|%r14|&\verb|%r14d|&\verb|%r14w|&\verb|%r14b|&Callee saved\\
+        \verb|%r15|&\verb|%r15d|&\verb|%r15w|&\verb|%r15b|&Callee saved
     \end{tabular}
     \caption{Oversigt over registre i x64 Assembly}
     \label{tab:registers}
@@ -38,68 +38,4 @@ Indenfor Assembly arbejdes der med ord og bytes.
 \end{itemize}
 Bogstaverne \textit{d} og \textit{q} indgår også til tider i operationer, som eksempelvis \textit{movq}.
 Dette betyder blot at der flyttes noget, der er 8 byte stort.
-\subsection{Instruktioner}
-Mange instruktioner som mov bruger suffix som \textit{w} og \textit{q} når disse bruges.
-Ydermere findes der flere forskellige former for operationer.
-\subsubsection{Data flytning}
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{ll|l}
-        Instruktion&Source/Destination&Beskrivelse\\\hline
-        \verb|mov|&S, D&Flytter fra Source til Destination\\
-        \verb|push|&S&Skubber til stakken\\
-        \verb|pop|&D&Popper toppen af stakken til Destination\\\hline
-        \verb|mob|&S, D&Flytter byte til word (Sign)\\
-        \verb|push|&S&Flytter byte til word (Zero)\\\hline
-        \verb|cwtl|&&Konverterer word i \verb|%ax| til dword i \verb|%eax| (Sign)\\
-        \verb|cltq|&&Konverterer dword i \verb|%eax| til qword i \verb|%rax| (Sign)\\
-        \verb|cqto|&&Konverterer qword i \verb|%rax| til oword i \verb|%rdx:%rax|
-    \end{tabular}
-    \caption{Instruktioner til at flytte data}
-\end{table}
-\subsubsection{Aritmetik}
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{ll|l}
-        Instruktion&Source/Destination&Beskrivelse\\\hline
-        \verb|inc|&D&Inkrementerer Destination med 1\\
-        \verb|dec|&D&Dekrementerer Destination med 1\\
-        \verb|neg|&D&Aritmetisk negation\\
-        \verb|not|&D&Bitvis komplement
-    \end{tabular}
-    \caption{Unary operationer}
-\end{table}
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{ll|l}
-        \verb|leaq|&S, D&Indlæser effektiv addresse for Source til Destination\\
-        \verb|add|&S, D&Adderer Source til Destination\\
-        \verb|sub|&S, D&Subtraherer Source fra Destination\\
-        \verb|imul|&S, D&Multiplerer Source med Destination\\
-        \verb|xor|&S, D&Bitvis XOR Destination med Source\\
-        \verb|or|&S, D&Bitvis OR Destination med Source\\
-        \verb|and|&S, D&Bitvis AND Destination med Source
-    \end{tabular}
-    \caption{Binære operationer}
-\end{table}
-Instruktioner som \verb|leq 17(%rax, %rbx, 4), %rcx| skal forstås som \\\verb|%rcx = 17 + %rax + %rbx * 4|.
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{ll|l}
-        \verb|sal/shl|&k, D&Venstreskift Destination med k bits\\
-        \verb|sar|&k, D&Aritmetisk højreskift Destination med k bits\\
-        \verb|shr|&k, D&Logisk højreskift Destination med k bits
-    \end{tabular}
-    \caption{Binære operationer}
-\end{table}
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{ll|l}
-        \verb|imulq|&S&Unsigned fuld multiplikation af \verb|%rax| med S. Resultatet gemmes i \verb|%rdx:%rax|\\
-        \verb|mulq|&S&Signed fuld multiplikation af \verb|%rax| med S. Resultatet gemmes i \verb|%rdx:%rax|\\
-        \verb|idivq|&S&\vtop{\hbox{\strut Signed dividering af \verb|%rdx:%rax| med S. Kvotient gemmes i \verb|%rax|.}\hbox{Rest gemmes i \verb|%rdx|}} \\
-        \verb|divq|&S&\vtop{\hbox{\strut Unsigned dividering af \verb|%rdx:%rax| med S. Kvotient gemmes i \verb|%rax|.}\hbox{Rest gemmes i \verb|%rdx|}}
-    \end{tabular}
-    \caption{Specielle Aritmetiske operationer}
-\end{table}
-For operationen \verb|leaq 8(%rax, %rbx, 8)| gælder det, at det sidste 8, er et offset for addressen.
+\input{asm/64instructions.tex}
