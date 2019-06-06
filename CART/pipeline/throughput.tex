@@ -1,0 +1,33 @@
+\subsection{Throughput og Latency}
+I CART måles \textit{Circuit delay} som picosekunder (ps).
+I et system, hvor der eksisterer 1 blok computationel logik, med et delay på 300ps, og et register load på 20ps, gives et throughput på 3.12GIPS.
+Dette kan udregnes på formlen:
+\begin{equation}
+    Throughput=\frac{instruktion}{delay}\cdot\frac{1000ps}{1ns}
+\end{equation}
+Throughput angives i GIPS \textit{(Giga-instruktioner per sekund)}, og skal derfor ganges med 1000.
+Den fulde tid det tager at køre en beregning fra start til slut, kaldes latency, og er i ovenstående eksempel 320ps.
+Latency i \textit{n-stage} kan udregnes ved følgende formel:
+\begin{equation}
+    Latency=clock\;cycler\cdot instruktion\;delay
+\end{equation}
+Med disse formler kan en forbedring og ny latency beregnes.
+Dette gøres ved brug af følgende to formler:
+\begin{equation}
+    \Delta_{Throughput}= \frac{Throughput_{new}}{Throughput_{old}}
+\end{equation}
+\begin{equation}
+    \Delta_{Latency}=\frac{Latency_{new}}{Latency_{old}}
+\end{equation}
+Den øgede latency skyldes at der er tilføjet mere hardware, og flere pipeline registre.
+For bedre forståelse se lærebogen s. 451.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{ll}
+        \hline
+        Unit&Seconds\\\hline
+        1000ps&$1e^{-9}$\\
+        1ns&$1e^{-9}$\\\hline
+    \end{tabular}
+    \caption{Convertering af Picosekunder og nanosekunder}
+\end{table}
