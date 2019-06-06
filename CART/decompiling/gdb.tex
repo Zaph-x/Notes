@@ -1,0 +1,12 @@
+\section{GDB debuggeren}
+I stedet for at bruge standard objdump, kan GDB anvendes til at finde skjulte værdier.
+Dette skyldes at GDB er en debugger for C kode, der samtidig kan skrive assembly kode, samt alle registrene.
+De vigtigste kommandoer er derfor:\\
+\verb|prompt> break <func_name>|\\
+\verb|prompt> run|\\
+\verb|prompt> nexti|\\
+\verb|prompt> info reg|\\
+Dette gentages indtil den givne addresse findes. 
+Det kan dog være en fordel at lede efter \verb|cmp| udtryk, da disse oftests betyder at der forgår en sammenligning.
+Hvis alt fejler, skal dette udregnes i hånden, med \verb|objdump|. \textit{I hope you survive}.
+
