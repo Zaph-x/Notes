@@ -1,0 +1,21 @@
+\section{Typer af cache}
+Der findes følgende typer af caching i hukommelses-hierakiet.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lllll}
+        \hline
+        Cache type&Hvad caches&Hvor er cachen&Cycler&Styret af\\\hline
+        Registre&4-8 bytes&CPU kerne&0&Compiler\\
+        TLB&Addresse overs.&On-chip TLB&0&Hardware MMU\\
+        L1 cache&64-byte blokke&On-chip L1&4&Hardware\\
+        L2 cache&64-byte blokke&On-chip L2&10&Hardware\\
+        Virtuel hukommelse&4-KB sider&Primær huk.&100&Hardware + OS\\
+        Buffer cache&Dele af filer&Primær huk.&100&OS\\
+        Disk cache&Disk sektor&Disk controller&100000&Disk firmware\\
+        Netværks buffer cache&Dele af filer&Lokal disk&10000000&NFSC\\
+        Browser cache&Websider&Lokal disk&10000000&Webbrowser\\
+        Webcache&Websider&Servers&1000000000&Proxy server\\\hline
+    \end{tabular}
+    \caption{Caching i hukommelses-hierakiet}
+    \label{tab:memhier}
+\end{table}

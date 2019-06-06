@@ -1,2 +1,20 @@
+\section{Politik}
+Inden for caching findes der politiker, der definere hvor i cachen, ting skal gemmes.
+Der findes \textit{Placeringspolitik} og \textit{Erstatnignspolitik}.
+\textbf{Placeringspolitik} definerer hvor i cachen at en blok placeres, hvor \textbf{Erstatningspolitik} definerer, hvad der skal erstattes.
+\section{Hit og miss}
+Hit og miss forekommer, når der laves en forespørgsel til cachen.
+Et hit eksisterer, når der laves en forespørgsel til cachen, og den efterspurgte værdi findes i cachen.
+Et miss er modsat, når der laves en forespørgsel, og den efterspurgte værdi ikke eksisterer i cachen, hvorved den skal hentes i hukommelsen.
+\subsection{Kold miss}
+Et koldt miss, også kaldet et tvungent miss, opstår når cachen er tom. Dette betyder at der ikke er nogen værdier i cachen, og der derfor kun kan forekomme et miss.
+\subsection{Konflikt miss}
+Et konflikt forekommer når flere blokke spørger efter den samme plads, men cachen stadig har flere pladser tilgængelig.
+Dog har de fleste cache implementationer restriktioner, der er sat for at undgå denne type miss.
+Dette kan eksempelvis være at blok \verb|B| skal placeres i \verb|B mod 4| på niveau k.
+\subsection{Kapacitets miss}
+Dette forekommer når mængden af aktive caceh blokke (working sets) overgår cachens kapacitet.
+\input{caching/typer.tex}
+\input{caching/blok.tex}
 \input{caching/locality.tex}
 \input{caching/assiciativ.tex}
